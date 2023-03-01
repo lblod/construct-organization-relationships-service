@@ -8,7 +8,9 @@
   },
   "author": "redpencil.io",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@lblod/mu-auth-sudo": "^0.5.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
