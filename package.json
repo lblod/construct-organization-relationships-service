@@ -1,6 +1,6 @@
 {
   "name": "construct-administrative-unit-relationships-service",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Microservice to construct the governing bodies, mandates and ministers of an admnistrative unit",
   "repository": {
     "type": "git",
