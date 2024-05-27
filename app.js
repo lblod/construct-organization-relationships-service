@@ -1,5 +1,5 @@
 import { app, errorHandler } from "mu";
-import { createOrganizationRelationships } from "./lib/processing-administrative-unit";
+import { createOrganizationRelationships } from "./lib/processing-organization";
 
 app.get("/", function (req, res) {
   res.send("Hello from construct-administrative-unit-relationships-service !");
