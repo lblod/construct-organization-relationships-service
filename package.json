@@ -1,10 +1,10 @@
 {
-  "name": "construct-administrative-unit-relationships-service",
+  "name": "construct-organization-relationships-service",
   "version": "0.1.7",
-  "description": "Microservice to construct the governing bodies, mandates and ministers of an admnistrative unit",
+  "description": "Microservice to construct the governing bodies, mandates and ministers of an organization",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lblod/construct-administrative-unit-relationships-service.git"
+    "url": "git+https://github.com/lblod/construct-organization-relationships-service.git"
   },
   "author": "redpencil.io",
   "license": "MIT",

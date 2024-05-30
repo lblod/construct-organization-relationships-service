@@ -1,6 +1,6 @@
-# construct-administrative-unit-relationships-service
+# construct-organization-relationships-service
 
-This service constructs the governing bodies, mandates and ministers of newly created administrative units.
+This service constructs the governing bodies, mandates and ministers of newly created organizations.
 
 It's taking inspiration on [loket-cli](https://github.com/lblod/loket-cli) and is extended to handle worship administrative units as well.
 
@@ -9,22 +9,22 @@ It's taking inspiration on [loket-cli](https://github.com/lblod/loket-cli) and i
 Add the following snippet to your `docker-compose.yml`:
 
 ```
-construct-administrative-unit-relationships:
-  image: lblod/construct-administrative-unit-relationships-service
+construct-organization-relationships:
+  image: lblod/construct-organization-relationships-service
 ```
 
 ## API
 
-### `POST /create-relationships/:administrativeUnitdUuid`
+### `POST /create-relationships/:organizationUuid`
 
-Expects the uuid of a newly created administrative unit as a parameter.
+Expects the UUID of a newly created organization as a parameter.
 
-Creates the following data and links it to the administrative unit :
+Creates the following data and links it to the organization:
 
 - governing body (`besluit:Bestuursorgaan`)
 - governing body in time (`besluit:Bestuursorgaan`)
 - mandate (`mandaat:Mandaat`)
-- bestuursfunctie, for non-worship administrative units only (`lblodlg:Bestuursfunctie`)
+- bestuursfunctie, for non-worship organizations only (`lblodlg:Bestuursfunctie`)
 - minister position, for `ere:BestuurVanDeEredienst` only (`ere:PositieBedienaar`)
 
 ## Environment variables
