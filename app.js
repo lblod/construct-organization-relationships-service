@@ -2,7 +2,7 @@ import { app, errorHandler } from "mu";
 import { createOrganizationRelationships } from "./lib/processing-organization";
 
 app.get("/", function (req, res) {
-  res.send("Hello from construct-administrative-unit-relationships-service !");
+  res.send("Hello from construct-organization-relationships-service !");
 });
 
 app.post("/create-relationships/:organizationUuid", async function (req, res) {
