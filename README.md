@@ -33,5 +33,3 @@ Creates the following data and links it to the organization:
 | ------------------------------------- | --------------------------------------------------------------------- | --------------------- |
 | START_DATE_NON_WORSHIP_GOVERNING_BODY | Start date of governing bodies for non worship services               | "2019-01-01T00:00:00" |
 | END_DATE_NON_WORSHIP_GOVERNING_BODY   | End date of governing bodies for non worship services (not mandatory) |                       |
-| START_DATE_WORSHIP_GOVERNING_BODY     | Start date of governing bodies for worship services                   | "2020-04-01T00:00:00" |
-| END_DATE_WORSHIP_GOVERNING_BODY       | End date of governing bodies for worship services                     | "2023-03-31T00:00:00" |
