@@ -1,6 +1,6 @@
 {
   "name": "construct-organization-relationships-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Microservice to construct the governing bodies, mandates and ministers of an organization",
   "repository": {
     "type": "git",
